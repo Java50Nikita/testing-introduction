@@ -17,6 +17,7 @@ class StringTest {
 		
 	}
 	
+	@Test
 	void containsTest() {
 		String str = "Hello";
 		assertTrue(str.contains("H"));
@@ -24,5 +25,11 @@ class StringTest {
 		assertTrue(str.contains("ello"));
 		assertFalse(str.contains("lelo"));
 	}
+	
+	@Test
+	void compareToTest() {
+		//TODO
+	}
+	
 
 }
